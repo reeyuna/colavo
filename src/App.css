@@ -1,38 +1,82 @@
-.App {
+/* header div */
+body {
+  background: #e9ecef;
+}
+
+.headerDiv {
+  padding: 20px 0px;  
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headerP {
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.itemDiv {
+  margin: 5px 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.textDiv {
+  display: inline-block;
+  margin-right: auto;
+  margin-bottom: 10px;
+  max-width: 70%;
 }
 
-.App-link {
-  color: #61dafb;
+.mainText {
+  margin: 0;
+  color : #60617F;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subText {
+  margin: 0;
+  color: #909EA7;
+  font-size: 12px;
+}
+
+.pinkText {
+  color: #ff4caf
+}
+
+/* main amount bottom */
+.totalBottom {
+  border-top: outset;
+  margin : 15px;
+  padding : 20px;
+
+}
+.totalAmount {
+  float: right;
+}
+
+.fullBtn {
+  margin: 20px;
+  height: 40px;
+  width: -webkit-fill-available;
+  background-color : #9885F0;
+  color : white;
+  border : none;
+  border-radius: 10px;
+
+}
+
+.countSelect {
+  float: right;
+  color: #909EA7;
+  background-color: #F7F7F7;
+  border : none;
+  padding : 5px;
+  margin : 5px 5px;
+  border-radius : 10px;
+}
+
+.deleteBtn {
+  float: right;
+  color: #FF75AA;
+  background-color: #FDF1F5;
+  border : none;
+  padding : 5px;
+  margin : 5px 5px;
+  border-radius : 10px;
 }
